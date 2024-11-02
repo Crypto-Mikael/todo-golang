@@ -1,15 +1,17 @@
 {
-  "name": "todo-golang",
-  "private": true,
-  "version": "0.0.0",
+  "name": "TODO-GOLANG",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "devDependencies": {
-    "typescript": "~5.6.2",
-    "vite": "^5.4.10"
+  "dependencies": {
+    "astro": "^4.16.8",
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.3"
   }
 }
